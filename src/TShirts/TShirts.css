@@ -1,0 +1,9 @@
+.t-shirt {
+  border: 1px solid salmon;
+  border-radius: 12px;
+  padding: 12px;
+}
+.t-shirt img{
+  height: 250px;
+  border-radius: 12px;
+}
