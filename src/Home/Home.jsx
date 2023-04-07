@@ -32,6 +32,12 @@ const Home = () => {
       </div>
       <div className="cart-container">
           <Cart cart={cart} handleRemoveFromCart={handleRemoveFromCart}></Cart>
+          {
+            cart.length === 2 && <h4>Nice work</h4>
+          }
+          {
+            cart.length === 3 || <h3>3 ta to holo na</h3>
+          }
       </div>
     </div>
   );

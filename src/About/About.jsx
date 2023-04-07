@@ -1,9 +1,10 @@
 import React from 'react';
+import Dada from '../ContextLearn/Dada/Dada';
 
 const About = () => {
   return (
     <div>
-      About us
+      <Dada></Dada>
     </div>
   );
 };
